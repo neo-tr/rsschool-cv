@@ -1,2 +1,2 @@
-https://neo-tr.github.io/rsschool-cv/cv  
-https://neo-tr.github.io/rsschool-cv/
+link on cv.md: https://neo-tr.github.io/rsschool-cv/cv  
+link on cv HTML: https://neo-tr.github.io/rsschool-cv/
