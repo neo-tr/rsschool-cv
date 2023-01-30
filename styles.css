@@ -185,6 +185,18 @@
   font-size: 6rem;
 }
 
+@media (max-width: 28.75em) {
+  .text-of-me-section > h2 {
+    position: relative;
+    margin-top: 25%;
+  }
+
+  .text-of-me-section > p {
+    position: relative;
+    margin-top: 7%;
+  }
+}
+
 /* About me section*/
 
 .aboutMe-section {
