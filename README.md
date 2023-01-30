@@ -1,1 +1,1 @@
-https://neo-tr.github.io/rsschool-cv/cv1
+https://neo-tr.github.io/rsschool-cv/cv
