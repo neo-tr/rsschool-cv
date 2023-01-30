@@ -52,6 +52,10 @@
     font-size: 4.2rem;
   }
   
+  ul {
+    margin-left: 20px;
+  }
+
   nav ul {
     list-style: none;
   }
@@ -126,20 +130,65 @@
     border-radius: 2px;
   }
   
-  /* About me section*/
 
-  .aboutMe-section {
-    display: grid;
-    grid-template-columns: 1fr 32em 1fr;
-    overflow: hidden;
-    justify-content:start;
-    align-items: center;
-    text-align: center;
-    width: 100%;
-    height: 80vh;
-    padding: 0 2rem;
-    background: gray;
+/* text of me section*/
+
+.text-of-me-section {
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: goldenrod;
+}
+
+.text-of-me-section > p {
+  
+}
+
+.text-of-me-section > h2 {
+  font-size: 6rem;
+}
+
+/* About me section*/
+
+.aboutMe-section {
+  display: grid;
+  grid-template-columns: 1fr 32em 1fr;
+  overflow: hidden;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 80vh;
+   padding: 0 2rem;
+   background: gray;
+}
+
+  .aboutMe-section-div {
+   justify-content:center;
+   align-items: center;
+   text-align: left;
+   height: 80vh;
+   margin: 25vh auto;
+   font-size: 2rem;
   }
+
+  .aboutMe-section-header {
+    margin-bottom: 20px;
+  
+  }
+
+  .aboutMe-section-header > h2 {
+    font-size: 6rem;
+  }
+
+  .aboutMe-section-p::first-letter {
+    font-size: 6rem;
+    color: orangered;
+    float: left;
+    margin-right: 1rem;
+}
 
   /* Contact section */
   
@@ -157,11 +206,6 @@
   
   .contact-section-header > h2 {
     font-size: 6rem;
-  }
-  
-  
-  .contact-section-header > p {
-    font-style: italic;
   }
   
   .contact-links {
