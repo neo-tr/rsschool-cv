@@ -25,7 +25,25 @@
     scroll-behavior: smooth;
   }
   
+  @media (max-width: 75em) {
+    html {
+      font-size: 60%;
+    }
+  }
   
+  /* 980px / 16px = 61.25em */
+  @media (max-width: 61.25em) {
+    html {
+      font-size: 58%;
+    }
+  }
+  
+  /* 460px / 16px = 28.75em */
+  @media (max-width: 28.75em) {
+    html {
+      font-size: 55%;
+    }
+  }
   
   /* Base styles */
   
@@ -93,6 +111,15 @@
     margin-right: 2rem;
   }
   
+  @media (max-width: 28.75em) {
+    .nav {
+      justify-content: center;
+    }
+  
+    .nav-list {
+      margin: 0 1rem;
+    }
+  }
   
   .nav-list a {
     display: block;
@@ -158,6 +185,18 @@
   font-size: 6rem;
 }
 
+@media (max-width: 28.75em) {
+  .text-of-me-section > h2 {
+    position: relative;
+    margin-top: 25%;
+  }
+
+  .text-of-me-section > p {
+    position: relative;
+    margin-top: 7%;
+  }
+}
+
 /* About me section*/
 
 .aboutMe-section {
@@ -172,27 +211,71 @@
    background: gray;
 }
 
+.aboutMe-section-div {
+  justify-content:center;
+  align-items: center;
+  text-align: left;
+  height: 80vh;
+  margin: 25vh auto;
+  font-size: 2rem;
+}
+
+.aboutMe-section-header {
+  margin-bottom: 20px;
+}
+
+.aboutMe-section-header h2 {
+  font-size: 6rem;
+}
+
+@media (max-width: 28.75em) {
+  .aboutMe-section {
+      overflow: scroll;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 80vh;
+      padding: auto;
+      background: gray;
+      display: block;
+  }
+
   .aboutMe-section-div {
-   justify-content:center;
-   align-items: center;
-   text-align: left;
-   height: 80vh;
-   margin: 25vh auto;
-   font-size: 2rem;
+    justify-content:center;
+    align-items: center;
+    text-align: left;
+    height: 80vh;
+    margin: 0;
+    font-size: 1rem;
+    display:block;
+    position: absolute;
+    font-size: 1.8rem;
+  }
+
+  .div1 {
+    top: 190vh;
+    left: 34%;
+  } 
+
+  .div2 {
+    top: 216vh;
+    left: 23%;
+  }
+
+  .div3 {
+    top: 242vh;
+    left: 23%;
   }
 
   .aboutMe-section-header {
-    margin-bottom: 20px;
-  
+    margin-bottom: 5px;
   }
 
-  .aboutMe-section-header h2 {
-    font-size: 6rem;
-  }
+}
 
-  /* Contact section */
+/* Contact section */
   
-  .contact-section {
+.contact-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,28 +285,34 @@
     height: 80vh;
     padding: 0 2rem;
     background: var(--main-gray);
-  }
+}
   
-  .contact-section-header > h2 {
+.contact-section-header > h2 {
     font-size: 6rem;
     margin-bottom: 3%;
-  }
+}
+
+@media (max-width: 28.75em) {
+    .contact-section-header > h2 {
+      font-size: 4rem;
+    }
+}
   
-  .contact-links {
+.contact-links {
     display: flex;
     justify-content: center;
     width: 100%;
     max-width: 980px;
     margin-top: 0;
     flex-wrap: wrap;
-  }
+}
   
-  .contact-details {
+.contact-details {
     font-size: 2.4rem;
     text-shadow: 2px 2px 1px #1f1f1f;
     transition: transform 0.3s ease-out;
-  }
+}
   
-  .contact-details:hover {
+.contact-details:hover {
     transform: scale(1.3)
-  }
+}
