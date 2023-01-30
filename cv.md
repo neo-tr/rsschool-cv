@@ -40,3 +40,11 @@ I'm Nikita. Happy to see you on my page. I took two education from two differen 
 * Python
 
 ***
+
+#### Languages
+
+* English (B2)
+* Russian (Native)
+* Turkish (A1)
+
+***
